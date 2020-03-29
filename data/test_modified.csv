@@ -1,0 +1,5 @@
+caseCode,apiCode,apiName,priority,url,function,parameter,expectValve
+A001,1,正确的账号密码,H,/api/sso/user/login,POST,"{""phoneNum"":""13631262926"",""password"":""junpeng123""}","""code"":0,""msg"":""操作成功"""
+A001,2,账号为空,,/api/sso/user/login,POST,"{""password"": ""junpeng123""}",3001
+A001,3,密码为空,,/api/sso/user/login,POST,"{""phoneNum"": ""13631262926""}",3001
+A001,4,错误的账号密码,,/api/sso/user/login,POST,"{""phoneNum"":""13631262926"",""password"":""junpeng000""}",3014
