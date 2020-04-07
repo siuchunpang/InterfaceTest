@@ -1,0 +1,6 @@
+caseCode,apiCode,apiName,priority,url,function,parameter,expectValve
+A003,1,获取用户信息,H,/api/user/cart/list,POST,,3004
+A003,2,获取用户收货信息,H,/api/user/getReceiverInfo,POST,,3004
+A003,3,获取设备到期信息,H,/api/user/camera/deadline,POST,,3004
+A003,4,获取用户增值税普通发票,H,/api/user/invoice/mine,POST,"{""invoiceType"": ""2""}",3004
+A003,5,获取用户增值税专用发票,H,/api/user/invoice/mine,POST,"{""invoiceType"": ""3""}",3004
