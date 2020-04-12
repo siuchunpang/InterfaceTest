@@ -1,6 +1,7 @@
 caseCode,apiCode,apiName,priority,url,function,parameter,expectValve
-A002,1,获取用户信息,H,/api/user/cart/list,POST,,"""code"":0,""msg"":""操作成功"""
+A002,1,查找会员的购物车记录,H,/api/user/cart/list,POST,,"""code"":0,""msg"":""操作成功"""
 A002,2,获取用户收货信息,H,/api/user/getReceiverInfo,POST,,"""code"":0,""msg"":""操作成功"""
-A002,3,获取设备到期信息,H,/api/user/camera/deadline,POST,,"""code"":0,""msg"":""操作成功"""
+A002,3,获取设备到期信息,H,/api/user/camera/deadline,POST,"{""rnd"": ""0.8122905093300903""}","""code"":0,""msg"":""操作成功"""
 A002,4,获取用户增值税普通发票,H,/api/user/invoice/mine,POST,"{""invoiceType"": ""2""}","""code"":0,""msg"":""操作成功"""
 A002,5,获取用户增值税专用发票,H,/api/user/invoice/mine,POST,"{""invoiceType"": ""3""}","""code"":0,""msg"":""操作成功"""
+A002,6,获取用户信息,H,/api/user/getUserInfo,POST,"{""rnd"": ""0.8122905093300903""}","""code"":0,""msg"":""操作成功"""

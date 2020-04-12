@@ -1,0 +1,4 @@
+caseCode,apiCode,apiName,priority,url,function,parameter,expectValve
+A004,1,获取用户场景记录_全部场景,H,/api/user/scene/list,POST,"{""pageNum"":1,""pageSize"":12,""cameraId"":null,""searchKey"":"""",""cameraType"":null,""rnd"":0.44909731491333593}","""code"":0,""msg"":""操作成功"""
+A004,2,获取用户场景记录_某相机,H,/api/user/scene/list,POST,"{""pageNum"":1,""pageSize"":12,""cameraId"":null,""searchKey"":""0212345AB"",""cameraType"":null,""rnd"":0.7455968146890801}","""code"":0,""msg"":""操作成功"""
+A004,3,获取用户场景记录_某关键字,H,/api/user/scene/list,POST,"{""pageNum"":1,""pageSize"":12,""cameraId"":null,""searchKey"":""场景"",""cameraType"":null,""rnd"":0.7455968146890801}","""code"":0,""msg"":""操作成功"""

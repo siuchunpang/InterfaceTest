@@ -1,0 +1,5 @@
+caseCode,apiCode,apiName,priority,url,function,parameter,expectValve
+A005,1,获取用户设备列表_八目,H,/api/user/camera/list,POST,"{""cameraType"":4,""childName"":"""",""pageNum"":1,""pageSize"":8,""rnd"":0.3083139275529616}","""code"":0,""msg"":""操作成功"""
+A005,2,获取用户设备列表_双目,H,/api/user/camera/list,POST,"{""cameraType"":0,""childName"":"""",""pageNum"":1,""pageSize"":8,""rnd"":0.3083139275529616}","""code"":0,""msg"":""操作成功"""
+A005,3,获取用户设备列表_某八目相机,H,/api/user/camera/list,POST,"{""cameraType"":4,""childName"":""0212345AB"",""pageNum"":1,""pageSize"":8,""rnd"":0.8329977638264303}","""code"":0,""msg"":""操作成功"""
+A005,4,获取用户设备列表_某双目相机,H,/api/user/camera/list,POST,"{""cameraType"":0,""childName"":""b0f1ec62ED84"",""pageNum"":1,""pageSize"":8,""rnd"":0.34085898030508477}","""code"":0,""msg"":""操作成功"""
